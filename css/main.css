@@ -1,0 +1,507 @@
+@media(max-width:1000px){
+    main{
+        width: 100%;
+        height: 500px;
+    }
+    main img{
+        background-image: url(../img/9-rasm.png);
+        width: 100%;
+        height: 500px;
+        background-position: center;
+
+    }
+ 
+    /* media image */
+
+    
+
+.imagies_item{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image_boxs{
+    width: 45%;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.image_boxs img{
+    width: 100%;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+    .sign_container{
+     flex-wrap: wrap;
+     justify-content: center;
+        
+    }
+    
+    .sign_box{
+        width: 220px;
+        height: 220px;
+        margin-top: 30px;
+    }
+    .sign_box img{
+        width: 220px;
+        height: 220px;
+    }
+
+
+    .kitchen .the_essentials_img{
+        width: 100%;
+        height: 500px;
+
+    }
+    .kitchen .the_essentials_img img{
+        width: 100%;
+        height: 500px;
+    }
+    main .text_design{
+        top: 462px;
+    }
+    .kitchen .text_happy h1{
+        font-size: 50px;
+    }
+    .imagies .image_box img{
+        height: 300px;
+    }
+    .text_sing-up h1{
+        margin-top: 100px;
+    }
+    .text_sing-up h2{
+        margin-top: 100px;
+    }
+    .image_design img{
+        margin-top: 150px;
+        height: 250px;
+    }
+    .kitchen .the_essentials_img h2{
+        font-size: 40px;
+    }
+    .image_design{
+        flex-direction: column;
+    }
+    .image_design img{
+        margin-top: 50px;
+        width: 50%;
+        margin-left: 200px;
+    }
+    .imagies{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .imagies .image_box img{
+        width: 360px;
+        height: 360px;
+        margin-top: 0px;
+    }
+    .imagies .image_box{
+        margin-bottom: 50px;
+    }
+    .imagies .image_box .images_text{
+        margin-left: 100px;
+    }
+}
+@media(max-width:850px){
+
+    nav a{
+        font-size: 11px;
+    }
+    header img{
+        width: 60px;
+        height: 20px;
+    }
+    header .icons i{
+        font-size: 13px;
+    }
+    header{
+        padding: 40px 0;
+    }
+    main img{
+        height: 400px;
+    }
+    main .text_design{
+        top: 360px;
+        right: 80px;
+    }
+    main .text_design h6{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    main .text_design h1{
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    main .text_design button{
+        padding: 12px 17px;
+        top: 90px;
+    }
+    .kitchen .text_happy h1{
+        font-size: 35px;
+        padding-top: 20px;
+    }
+    main{
+        height: 400px;
+    }
+    .kitchen .maple_board{
+        margin-top: 100px;
+    }
+    .text_and_img .image-rectangle img{
+        height: 520px;
+        margin-top: 0px;
+    }
+    .text_and_img .image-rectangle{
+        height: 550px;
+    }
+    .kitchen .text_and_img{
+        height: 650px;
+    }
+    .text_and_img .text_centr{
+        height: 550px;
+    }
+    .text_and_img .text_centr h1{
+        margin-top: 50px;
+    }
+    .text_sing-up h1{
+        margin-top: 80px;
+    }
+    .kitchen .the_essentials_img h2{
+        font-size: 25px;
+        top: 50px;
+    }
+    .kitchen .the_essentials_img a{
+        top: 35px;
+        font-size: 15px;
+    }
+    .kitchen .the_essentials_img img{
+        height: 400px;
+    }
+    .designs .design_image{
+        margin-top: 40px;
+    }
+    .designs .design{
+        margin-top: 40px;
+    }
+    .designs .design h1{
+        font-size: 25px;
+    }
+    .designs .design p{
+        font-size: 16px;
+    }
+    .designs .design_image img{
+        height: 520px;
+    }
+    .text_and_img .text_centr h1{
+        font-size: 25px;
+    }
+    .text_and_img .text_centr p{
+        font-size: 16px;
+    }
+    .text_sing-up h1{
+        margin-top: 0px;
+    }
+    footer .help{
+        display: none;
+    }
+    .text_frist p{
+        width: 50%;
+    }
+    footer .text_frist{
+        width: 50%;
+    }
+    .image_design{
+        flex-wrap: wrap;
+    }
+    .imagies .image_box img{
+        width: 360px;
+        height: 360px;
+        margin-top: 0px;
+        margin-left: -80px;
+    }
+    .imagies .image_box .images_text{
+        margin-left: 20px;
+    }
+    .image_design img{
+        margin-left: 170px;    
+    }
+}
+@media(max-width:700px){
+
+
+    nav ul{
+        display: none;
+    }
+    header img{
+        margin-left: 70px;
+    }
+    main img{
+        height: 350px;
+    }
+    main .text_design{
+        top: 300px;
+    }
+    main .text_design h6{
+        font-size: 10px;
+    }
+    main .text_design h1{
+        font-size: 30px;
+        margin-top: 0;
+    }
+    main .text_design button{
+        padding: 10px 15px;
+    }
+    .kitchen .text_happy h1{
+        padding-top: 0;
+        font-size: 30px;
+    }
+    .kitchen .maple_board{
+        margin-top: 50px;
+    }
+    .image_design img{
+        margin-left: 150px;
+    }
+    .kitchen .the_essentials_img img{
+        margin-top: -70px;
+    }
+    .kitchen .the_essentials_img a{
+        top: -35px;
+    }
+    .kitchen .the_essentials_img h2{
+        top: -20px;
+    }    
+    .designs .design_image{
+        margin-top: -50px;
+    }
+    .designs .design{
+        margin-top: -50px;
+    }
+    .text_and_img .text_centr h1{
+        margin-top: -120px;
+    }
+    .text_and_img .image-rectangle img{
+        margin-top: -120px;
+    }
+    .text_sing-up h1{
+        margin-top: -150px;
+    }
+    .text_sing-up .subscribe button{
+        margin-top: 0;
+    }
+    .text_sing-up .subscribe{
+        margin-left: 25%;
+    }
+    .text_sing-up h2{
+        margin-top: 50px;
+    }
+    .image_design img{
+        margin-top: 0;
+    }
+    footer{
+        height: 300px;
+    }
+}
+@media(max-width:600px){
+    main img{
+        height: 300px;
+    }
+    main .text_design h6{
+        font-size: 10px;
+    }
+    main .text_design h1{
+        font-size: 25px;
+        margin-top: -15px;
+    }
+    main .text_design button{
+        top: 65px;
+        padding: 7px 10px;
+        font-size: 10px;
+    }
+    main .text_design{
+        top: 240px;
+    }
+    header{
+        padding: 15px;
+    }
+
+    .image_boxs{
+        width: 80%;
+        height: 300px;
+        margin-top: 60px;
+    }
+    .imagies_item .image_boxs .images_text p{
+        font-size: 12px;
+    }
+
+
+
+    .kitchen .text_happy h1{
+        margin-top: -120px;
+        font-size: 25px;
+    }
+    .kitchen .maple_board{
+        font-size: 20px;
+    }
+    .kitchen .the_essentials_img img{
+        margin-top: -70px;
+        height: 300px;
+    }
+    .kitchen .the_essentials_img a{
+        font-size: 12px;
+        top: -50px;
+    }
+    .kitchen .the_essentials_img h2{
+        font-size: 17px;
+        top: -35px;
+    } 
+    .designs .design_image{
+        margin-top: -150px;
+    }
+    .designs .design{
+        margin-top: -150px;
+    }
+    .designs .design h1{
+        font-size: 20px;
+    }
+    .designs .design p{
+        margin-top: -30px;
+        font-size: 15px;
+    }
+    .designs .design img{
+        margin-top: 12px;
+    }
+    .text_and_img .text_centr h1{
+        margin-top: -250px;
+        font-size: 20px;
+    }
+    .text_and_img .image-rectangle img{
+        margin-top: -270px;
+    }
+    .text_and_img .text_centr p{
+        font-size: 15px;
+        margin-top: -25px;
+    }
+    .text_centr .img_border hr{
+        margin-top: 12px;
+    }
+}
+@media(max-width:530px){
+    .designs .design_image img{
+        height: 400px;
+    }
+    .designs .design_image{
+        height: 400px;
+    }
+    .designs .design p{
+        font-size: 10px;
+    }
+    .designs .design h1{
+        font-size: 15px;
+    }
+    .designs .design{
+        height: 400px;
+    }
+    .text_and_img .image-rectangle img{
+        height: 400px;
+        margin-top: -400px;
+    }
+    .text_and_img .text_centr p{
+        font-size: 10px;
+    }
+    .text_and_img .text_centr h1{
+        font-size: 15px;
+        margin-top: -370px;
+    }
+    .text_and_img .text_centr{
+        height: 400px;
+    }
+    .text_and_img .image-rectangle{
+        height: 400px;
+    }
+    .text_sing-up h2{
+        margin-top: 50px;
+    }
+    .text_sing-up h1{
+        margin-top: -550px;
+    }
+}
+@media(max-width:420px){
+    main img{
+        height: 250px;
+    }
+    main .text_design{
+        top: 200px;
+        right: 40px;
+    }
+    .kitchen .text_happy h1{
+        line-height: 30px;
+        padding-top: -100px;
+    }
+    main{
+        height: 350px;
+    }
+    .kitchen .the_essentials_img{
+        height: 400px;
+    }
+    .kitchen .the_essentials_img img{
+        height: 250px;
+    }
+    .kitchen .the_essentials_img h2{
+        line-height: 30px;
+        font-size: 13px;
+    }
+    .kitchen .the_essentials_img a{
+        left: 35%;
+        top: -60px;
+    }
+    .designs .design_image img{
+        height: 300px;
+    }
+    .designs .design_image{
+        height: 300px;
+    }
+    .designs .design p{
+        line-height: 15px;
+    }
+    .text_sing-up .subscribe input{
+        margin-bottom: 20px;
+    }
+
+    .text_and_img .image-rectangle img{
+        height: 300px;
+        margin-top: -400px;
+    }
+    .text_and_img .text_centr p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .text_and_img .text_centr h1{
+        font-size: 15px;
+        margin-top: -370px;
+    }
+    .text_and_img .text_centr{
+        height: 400px;
+        margin-top: -150px;
+    }
+    .text_and_img .image-rectangle{
+        height: 300px;
+        margin-top: -250px;
+    }
+    .text_sing-up h1{
+        margin-top: -800px;
+    }
+}
+@media(max-width:380px){
+    .text_and_img .text_centr p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .text_sing-up h1{
+        font-size: 25px;
+    }
+    .text_sing-up p{
+        font-size: 13px;
+    }
+}
